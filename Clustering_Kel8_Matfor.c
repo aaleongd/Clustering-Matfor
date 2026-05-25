@@ -28,7 +28,6 @@ typedef struct
 double cleanNumber(char str[])
 {
     double a, b;
-    // Jika format seperti 4-5
     if (sscanf(str, "%lf-%lf", &a, &b) == 2)
     {
         return (a + b) / 2.0;
